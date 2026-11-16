@@ -1,0 +1,23 @@
+{
+  "name": "landchain",
+  "version": "1.0.0",
+  "description": "LandChain - Blockchain-Based Land Records Management System Using Hyperledger Fabric",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "hyperledger-fabric",
+    "blockchain",
+    "land-records",
+    "smart-contracts",
+    "react",
+    "express"
+  ],
+  "author": "LandChain Government Digital Registry",
+  "license": "Apache-2.0"
+}
+

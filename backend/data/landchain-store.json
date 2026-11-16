@@ -1,0 +1,441 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Chief Land Registrar",
+      "email": "registrar@landchain.gov.in",
+      "password_hash": "$2a$10$u.paMHtQvY0U8BBahvUdF.rskk4v4BqM0czJhSk9l3w0muXElJ0hW",
+      "role": "registrar",
+      "phone": "+91 80 2234 5678",
+      "created_at": "2026-11-04T11:18:59.678Z"
+    },
+    {
+      "id": 2,
+      "name": "Aarav Sharma",
+      "email": "citizen@landchain.gov.in",
+      "password_hash": "$2a$10$u.paMHtQvY0U8BBahvUdF.kAfcuj6JPseAiMiEsZb0YrGXf6sHMHS",
+      "role": "citizen",
+      "phone": "+91 98765 43210",
+      "created_at": "2026-11-04T11:18:59.679Z"
+    },
+    {
+      "id": 3,
+      "name": "Priya Patel",
+      "email": "buyer@landchain.gov.in",
+      "password_hash": "$2a$10$u.paMHtQvY0U8BBahvUdF.kAfcuj6JPseAiMiEsZb0YrGXf6sHMHS",
+      "role": "citizen",
+      "phone": "+91 91234 56789",
+      "created_at": "2026-11-04T11:18:59.680Z"
+    },
+    {
+      "id": 4,
+      "name": "Rohan Deshmukh",
+      "email": "citizen_1793791164904@testland.gov.in",
+      "password_hash": "$2a$10$gXVSATsrN7wDD.NvVAMFxuJCCR4UyZXH1x/6euWq.wWCbqw2JOZOe",
+      "role": "citizen",
+      "phone": "+91 9988776655",
+      "created_at": "2026-11-04T11:19:24.984Z"
+    },
+    {
+      "id": 5,
+      "name": "Hacker",
+      "email": "fake_1793791164988@evil.com",
+      "password_hash": "$2a$10$B7pV7LkhW8hTymMto3Y1juG9fauKs2G7cgoCd4ogNgZjmQcJj0xeO",
+      "role": "citizen",
+      "phone": null,
+      "created_at": "2026-11-04T11:19:25.058Z"
+    },
+    {
+      "id": 6,
+      "name": "Rohan Deshmukh",
+      "email": "citizen_1793791200921@testland.gov.in",
+      "password_hash": "$2a$10$TwpG4X3FZuvoMntxDXeRGuLmwPzumDwtgEtbBJyFvmC4NU5NYj5WK",
+      "role": "citizen",
+      "phone": "+91 9988776655",
+      "created_at": "2026-11-04T11:20:01.004Z"
+    },
+    {
+      "id": 7,
+      "name": "Hacker",
+      "email": "fake_1793791201008@evil.com",
+      "password_hash": "$2a$10$COx52Bhf2MKWKOcw/SvhHeESo3FHXmiP8fGzrVqkI8HQwaDcLbFCq",
+      "role": "citizen",
+      "phone": null,
+      "created_at": "2026-11-04T11:20:01.070Z"
+    }
+  ],
+  "registration_requests": [
+    {
+      "id": 1,
+      "land_id": "LAND-MH-2024-002",
+      "user_id": 2,
+      "survey_number": "SY-552/3A",
+      "location": "Bandra Kurla Complex, Plot 14",
+      "district": "Mumbai Suburban",
+      "state": "Maharashtra",
+      "area": 1800,
+      "area_unit": "Sq Ft",
+      "land_type": "Commercial",
+      "owner_name": "Aarav Sharma",
+      "document_reference": "MH-REV-DEED-2024-991",
+      "status": "PENDING",
+      "registrar_id": null,
+      "blockchain_tx_id": null,
+      "created_at": "2026-11-04T11:18:59.681Z"
+    },
+    {
+      "id": 2,
+      "land_id": "LAND-TEST-5244",
+      "user_id": 4,
+      "survey_number": "SY-882/1A",
+      "location": "Koramangala 4th Block, 80ft Road",
+      "district": "Bengaluru Urban",
+      "state": "Karnataka",
+      "area": 3200,
+      "area_unit": "Sq Ft",
+      "land_type": "Residential",
+      "owner_name": "Rohan Deshmukh",
+      "document_reference": "TITLE-DOC-KA-2024-4491",
+      "status": "APPROVED",
+      "registrar_id": 1,
+      "blockchain_tx_id": "92a55e8159eb0853bd8ce636d80d11f5a49fdb66637120e012b6a69af21cc38b",
+      "created_at": "2026-11-04T11:19:25.246Z"
+    },
+    {
+      "id": 3,
+      "land_id": "LAND-TEST-1258",
+      "user_id": 6,
+      "survey_number": "SY-882/1A",
+      "location": "Koramangala 4th Block, 80ft Road",
+      "district": "Bengaluru Urban",
+      "state": "Karnataka",
+      "area": 3200,
+      "area_unit": "Sq Ft",
+      "land_type": "Residential",
+      "owner_name": "Rohan Deshmukh",
+      "document_reference": "TITLE-DOC-KA-2024-4491",
+      "status": "APPROVED",
+      "registrar_id": 1,
+      "blockchain_tx_id": "d4d84c4bd167e5ba9e197e32c4e8ffff4527902b24b1c0fed7aba4d60801dd85",
+      "created_at": "2026-11-04T11:20:01.260Z"
+    },
+    {
+      "id": 4,
+      "land_id": "LAND-KA-2026-131",
+      "user_id": 2,
+      "survey_number": "CTS-884",
+      "location": "Potheri",
+      "district": "Bengaluru Urban",
+      "state": "Karnataka",
+      "area": 2400,
+      "area_unit": "Sq Ft",
+      "land_type": "Residential",
+      "owner_name": "Sana Sinha",
+      "document_reference": "Khata 402",
+      "status": "REJECTED",
+      "registrar_id": 1,
+      "blockchain_tx_id": null,
+      "created_at": "2026-11-04T18:33:40.080Z"
+    },
+    {
+      "id": 5,
+      "land_id": "LAND-2315",
+      "user_id": 2,
+      "survey_number": "CTS-342",
+      "location": "Chennau",
+      "district": "Bengaluru Urban",
+      "state": "Tamil Nadu",
+      "area": 2500,
+      "area_unit": "Sq Ft",
+      "land_type": "Residential",
+      "owner_name": "S Sharma",
+      "document_reference": "DOC 23",
+      "status": "APPROVED",
+      "registrar_id": 1,
+      "blockchain_tx_id": "ef202b571eea542ee2335ba2d0ba1fc998cd7381dae2d6f0cd8c62dfe386ae6f",
+      "created_at": "2026-11-05T02:56:17.366Z"
+    }
+  ],
+  "transfer_requests": [
+    {
+      "id": 1,
+      "land_id": "LAND-TEST-5244",
+      "current_owner_id": 4,
+      "new_owner_id": 3,
+      "status": "APPROVED",
+      "registrar_id": 1,
+      "blockchain_tx_id": "cf484b34059545529611cd5ea4bed7c067338b369add41c521b3c50eed6e9d27",
+      "created_at": "2026-11-04T11:19:25.259Z"
+    },
+    {
+      "id": 2,
+      "land_id": "LAND-TEST-5244",
+      "current_owner_id": 4,
+      "new_owner_id": 3,
+      "status": "PENDING",
+      "registrar_id": null,
+      "blockchain_tx_id": null,
+      "created_at": "2026-11-04T11:19:25.261Z"
+    },
+    {
+      "id": 3,
+      "land_id": "LAND-TEST-1258",
+      "current_owner_id": 6,
+      "new_owner_id": 3,
+      "status": "APPROVED",
+      "registrar_id": 1,
+      "blockchain_tx_id": "5158a78fffb0c1711d9d3228c0cad3687eda769def24e9fcc327872b15bbed1d",
+      "created_at": "2026-11-04T11:20:01.274Z"
+    },
+    {
+      "id": 4,
+      "land_id": "LAND-KA-2024-001",
+      "current_owner_id": 2,
+      "new_owner_id": 1,
+      "status": "PENDING",
+      "registrar_id": null,
+      "blockchain_tx_id": null,
+      "created_at": "2026-11-05T03:02:52.851Z"
+    }
+  ],
+  "activity_logs": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "action": "SYSTEM_INITIALIZED",
+      "land_id": null,
+      "timestamp": "2026-11-04T11:18:59.681Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "action": "LAND_REGISTRATION_SUBMITTED",
+      "land_id": "LAND-MH-2024-002",
+      "timestamp": "2026-11-04T11:18:59.681Z"
+    },
+    {
+      "id": 3,
+      "user_id": 4,
+      "action": "CITIZEN_REGISTERED",
+      "land_id": null,
+      "timestamp": "2026-11-04T11:19:24.985Z"
+    },
+    {
+      "id": 4,
+      "user_id": 5,
+      "action": "CITIZEN_REGISTERED",
+      "land_id": null,
+      "timestamp": "2026-11-04T11:19:25.058Z"
+    },
+    {
+      "id": 5,
+      "user_id": 4,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-04T11:19:25.120Z"
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-04T11:19:25.180Z"
+    },
+    {
+      "id": 7,
+      "user_id": 3,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-04T11:19:25.243Z"
+    },
+    {
+      "id": 8,
+      "user_id": 4,
+      "action": "LAND_REGISTRATION_SUBMITTED",
+      "land_id": "LAND-TEST-5244",
+      "timestamp": "2026-11-04T11:19:25.247Z"
+    },
+    {
+      "id": 9,
+      "user_id": 1,
+      "action": "REGISTRATION_APPROVED_BY_REGISTRAR",
+      "land_id": "LAND-TEST-5244",
+      "timestamp": "2026-11-04T11:19:25.255Z"
+    },
+    {
+      "id": 10,
+      "user_id": 4,
+      "action": "TRANSFER_REQUEST_SUBMITTED",
+      "land_id": "LAND-TEST-5244",
+      "timestamp": "2026-11-04T11:19:25.259Z"
+    },
+    {
+      "id": 11,
+      "user_id": 4,
+      "action": "TRANSFER_REQUEST_SUBMITTED",
+      "land_id": "LAND-TEST-5244",
+      "timestamp": "2026-11-04T11:19:25.261Z"
+    },
+    {
+      "id": 12,
+      "user_id": 1,
+      "action": "TRANSFER_APPROVED_BY_REGISTRAR",
+      "land_id": "LAND-TEST-5244",
+      "timestamp": "2026-11-04T11:19:25.265Z"
+    },
+    {
+      "id": 13,
+      "user_id": 6,
+      "action": "CITIZEN_REGISTERED",
+      "land_id": null,
+      "timestamp": "2026-11-04T11:20:01.005Z"
+    },
+    {
+      "id": 14,
+      "user_id": 7,
+      "action": "CITIZEN_REGISTERED",
+      "land_id": null,
+      "timestamp": "2026-11-04T11:20:01.070Z"
+    },
+    {
+      "id": 15,
+      "user_id": 6,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-04T11:20:01.133Z"
+    },
+    {
+      "id": 16,
+      "user_id": 1,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-04T11:20:01.195Z"
+    },
+    {
+      "id": 17,
+      "user_id": 3,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-04T11:20:01.256Z"
+    },
+    {
+      "id": 18,
+      "user_id": 6,
+      "action": "LAND_REGISTRATION_SUBMITTED",
+      "land_id": "LAND-TEST-1258",
+      "timestamp": "2026-11-04T11:20:01.261Z"
+    },
+    {
+      "id": 19,
+      "user_id": 1,
+      "action": "REGISTRATION_APPROVED_BY_REGISTRAR",
+      "land_id": "LAND-TEST-1258",
+      "timestamp": "2026-11-04T11:20:01.270Z"
+    },
+    {
+      "id": 20,
+      "user_id": 6,
+      "action": "TRANSFER_REQUEST_SUBMITTED",
+      "land_id": "LAND-TEST-1258",
+      "timestamp": "2026-11-04T11:20:01.275Z"
+    },
+    {
+      "id": 21,
+      "user_id": 1,
+      "action": "TRANSFER_APPROVED_BY_REGISTRAR",
+      "land_id": "LAND-TEST-1258",
+      "timestamp": "2026-11-04T11:20:01.281Z"
+    },
+    {
+      "id": 22,
+      "user_id": 1,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-04T11:26:48.220Z"
+    },
+    {
+      "id": 23,
+      "user_id": 2,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-04T11:31:40.117Z"
+    },
+    {
+      "id": 24,
+      "user_id": 2,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-04T18:30:07.806Z"
+    },
+    {
+      "id": 25,
+      "user_id": 2,
+      "action": "LAND_REGISTRATION_SUBMITTED",
+      "land_id": "LAND-KA-2026-131",
+      "timestamp": "2026-11-04T18:33:40.084Z"
+    },
+    {
+      "id": 26,
+      "user_id": 1,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-04T18:34:05.851Z"
+    },
+    {
+      "id": 27,
+      "user_id": 2,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-05T02:52:39.620Z"
+    },
+    {
+      "id": 28,
+      "user_id": 2,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-05T02:54:09.864Z"
+    },
+    {
+      "id": 29,
+      "user_id": 2,
+      "action": "LAND_REGISTRATION_SUBMITTED",
+      "land_id": "LAND-2315",
+      "timestamp": "2026-11-05T02:56:17.378Z"
+    },
+    {
+      "id": 30,
+      "user_id": 1,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-05T02:56:46.207Z"
+    },
+    {
+      "id": 31,
+      "user_id": 1,
+      "action": "REGISTRATION_APPROVED_BY_REGISTRAR",
+      "land_id": "LAND-2315",
+      "timestamp": "2026-11-05T02:58:23.590Z"
+    },
+    {
+      "id": 32,
+      "user_id": 1,
+      "action": "REGISTRATION_REJECTED_BY_REGISTRAR",
+      "land_id": "LAND-KA-2026-131",
+      "timestamp": "2026-11-05T02:58:54.083Z"
+    },
+    {
+      "id": 33,
+      "user_id": 2,
+      "action": "USER_LOGIN",
+      "land_id": null,
+      "timestamp": "2026-11-05T02:59:11.577Z"
+    },
+    {
+      "id": 34,
+      "user_id": 2,
+      "action": "TRANSFER_REQUEST_SUBMITTED",
+      "land_id": "LAND-KA-2024-001",
+      "timestamp": "2026-11-05T03:02:52.856Z"
+    }
+  ]
+}

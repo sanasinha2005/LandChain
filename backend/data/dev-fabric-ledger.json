@@ -1,0 +1,327 @@
+{
+  "blockHeight": 7,
+  "worldState": {
+    "LAND-KA-2024-001": {
+      "landId": "LAND-KA-2024-001",
+      "surveyNumber": "SY-104/2B",
+      "currentOwner": {
+        "name": "Aarav Sharma",
+        "email": "citizen@landchain.gov.in"
+      },
+      "location": "Whitefield Tech Enclave, Sector 4",
+      "district": "Bengaluru Urban",
+      "state": "Karnataka",
+      "area": 2400,
+      "areaUnit": "Sq Ft",
+      "landType": "Residential",
+      "documentRef": "REG-DOC-KA-2024-8849",
+      "status": "REGISTERED",
+      "registeredAt": "2024-01-15T10:00:00.000Z",
+      "updatedAt": "2024-01-15T10:00:00.000Z",
+      "txId": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "blockNumber": 1,
+      "endorserMsp": "Org1MSP"
+    },
+    "LAND-TEST-5244": {
+      "landId": "LAND-TEST-5244",
+      "surveyNumber": "SY-882/1A",
+      "currentOwner": {
+        "name": "Priya Patel",
+        "email": "buyer@landchain.gov.in"
+      },
+      "location": "Koramangala 4th Block, 80ft Road",
+      "district": "Bengaluru Urban",
+      "state": "Karnataka",
+      "area": 3200,
+      "areaUnit": "Sq Ft",
+      "landType": "Residential",
+      "documentRef": "TITLE-DOC-KA-2024-4491",
+      "status": "REGISTERED",
+      "registeredAt": "2026-11-04T11:19:25.254Z",
+      "updatedAt": "2026-11-04T11:19:25.264Z",
+      "txId": "cf484b34059545529611cd5ea4bed7c067338b369add41c521b3c50eed6e9d27",
+      "blockNumber": 3,
+      "endorserMsp": "Org1MSP",
+      "previousOwner": {
+        "name": "Rohan Deshmukh",
+        "email": "citizen_1793791164904@testland.gov.in"
+      }
+    },
+    "LAND-TEST-1258": {
+      "landId": "LAND-TEST-1258",
+      "surveyNumber": "SY-882/1A",
+      "currentOwner": {
+        "name": "Priya Patel",
+        "email": "buyer@landchain.gov.in"
+      },
+      "location": "Koramangala 4th Block, 80ft Road",
+      "district": "Bengaluru Urban",
+      "state": "Karnataka",
+      "area": 3200,
+      "areaUnit": "Sq Ft",
+      "landType": "Residential",
+      "documentRef": "TITLE-DOC-KA-2024-4491",
+      "status": "REGISTERED",
+      "registeredAt": "2026-11-04T11:20:01.269Z",
+      "updatedAt": "2026-11-04T11:20:01.280Z",
+      "txId": "5158a78fffb0c1711d9d3228c0cad3687eda769def24e9fcc327872b15bbed1d",
+      "blockNumber": 5,
+      "endorserMsp": "Org1MSP",
+      "previousOwner": {
+        "name": "Rohan Deshmukh",
+        "email": "citizen_1793791200921@testland.gov.in"
+      }
+    },
+    "LAND-2315": {
+      "landId": "LAND-2315",
+      "surveyNumber": "CTS-342",
+      "currentOwner": {
+        "name": "S Sharma",
+        "email": "citizen@landchain.gov.in"
+      },
+      "location": "Chennau",
+      "district": "Bengaluru Urban",
+      "state": "Tamil Nadu",
+      "area": 2500,
+      "areaUnit": "Sq Ft",
+      "landType": "Residential",
+      "documentRef": "DOC 23",
+      "status": "REGISTERED",
+      "registeredAt": "2026-11-05T02:58:23.522Z",
+      "updatedAt": "2026-11-05T02:58:23.522Z",
+      "txId": "ef202b571eea542ee2335ba2d0ba1fc998cd7381dae2d6f0cd8c62dfe386ae6f",
+      "blockNumber": 6,
+      "endorserMsp": "Org1MSP"
+    }
+  },
+  "historyStore": {
+    "LAND-KA-2024-001": [
+      {
+        "txId": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "timestamp": "2024-01-15T10:00:00.000Z",
+        "isDelete": false,
+        "record": {
+          "landId": "LAND-KA-2024-001",
+          "surveyNumber": "SY-104/2B",
+          "currentOwner": {
+            "name": "Aarav Sharma",
+            "email": "citizen@landchain.gov.in"
+          },
+          "location": "Whitefield Tech Enclave, Sector 4",
+          "district": "Bengaluru Urban",
+          "state": "Karnataka",
+          "area": 2400,
+          "areaUnit": "Sq Ft",
+          "landType": "Residential",
+          "documentRef": "REG-DOC-KA-2024-8849",
+          "status": "REGISTERED",
+          "registeredAt": "2024-01-15T10:00:00.000Z",
+          "updatedAt": "2024-01-15T10:00:00.000Z",
+          "txId": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "blockNumber": 1,
+          "endorserMsp": "Org1MSP"
+        }
+      }
+    ],
+    "LAND-TEST-5244": [
+      {
+        "txId": "92a55e8159eb0853bd8ce636d80d11f5a49fdb66637120e012b6a69af21cc38b",
+        "timestamp": "2026-11-04T11:19:25.254Z",
+        "isDelete": false,
+        "record": {
+          "landId": "LAND-TEST-5244",
+          "surveyNumber": "SY-882/1A",
+          "currentOwner": {
+            "name": "Rohan Deshmukh",
+            "email": "citizen_1793791164904@testland.gov.in"
+          },
+          "location": "Koramangala 4th Block, 80ft Road",
+          "district": "Bengaluru Urban",
+          "state": "Karnataka",
+          "area": 3200,
+          "areaUnit": "Sq Ft",
+          "landType": "Residential",
+          "documentRef": "TITLE-DOC-KA-2024-4491",
+          "status": "REGISTERED",
+          "registeredAt": "2026-11-04T11:19:25.254Z",
+          "updatedAt": "2026-11-04T11:19:25.254Z",
+          "txId": "92a55e8159eb0853bd8ce636d80d11f5a49fdb66637120e012b6a69af21cc38b",
+          "blockNumber": 2,
+          "endorserMsp": "Org1MSP"
+        }
+      },
+      {
+        "txId": "cf484b34059545529611cd5ea4bed7c067338b369add41c521b3c50eed6e9d27",
+        "timestamp": "2026-11-04T11:19:25.264Z",
+        "isDelete": false,
+        "record": {
+          "landId": "LAND-TEST-5244",
+          "surveyNumber": "SY-882/1A",
+          "currentOwner": {
+            "name": "Priya Patel",
+            "email": "buyer@landchain.gov.in"
+          },
+          "location": "Koramangala 4th Block, 80ft Road",
+          "district": "Bengaluru Urban",
+          "state": "Karnataka",
+          "area": 3200,
+          "areaUnit": "Sq Ft",
+          "landType": "Residential",
+          "documentRef": "TITLE-DOC-KA-2024-4491",
+          "status": "REGISTERED",
+          "registeredAt": "2026-11-04T11:19:25.254Z",
+          "updatedAt": "2026-11-04T11:19:25.264Z",
+          "txId": "cf484b34059545529611cd5ea4bed7c067338b369add41c521b3c50eed6e9d27",
+          "blockNumber": 3,
+          "endorserMsp": "Org1MSP",
+          "previousOwner": {
+            "name": "Rohan Deshmukh",
+            "email": "citizen_1793791164904@testland.gov.in"
+          }
+        }
+      }
+    ],
+    "LAND-TEST-1258": [
+      {
+        "txId": "d4d84c4bd167e5ba9e197e32c4e8ffff4527902b24b1c0fed7aba4d60801dd85",
+        "timestamp": "2026-11-04T11:20:01.269Z",
+        "isDelete": false,
+        "record": {
+          "landId": "LAND-TEST-1258",
+          "surveyNumber": "SY-882/1A",
+          "currentOwner": {
+            "name": "Rohan Deshmukh",
+            "email": "citizen_1793791200921@testland.gov.in"
+          },
+          "location": "Koramangala 4th Block, 80ft Road",
+          "district": "Bengaluru Urban",
+          "state": "Karnataka",
+          "area": 3200,
+          "areaUnit": "Sq Ft",
+          "landType": "Residential",
+          "documentRef": "TITLE-DOC-KA-2024-4491",
+          "status": "REGISTERED",
+          "registeredAt": "2026-11-04T11:20:01.269Z",
+          "updatedAt": "2026-11-04T11:20:01.269Z",
+          "txId": "d4d84c4bd167e5ba9e197e32c4e8ffff4527902b24b1c0fed7aba4d60801dd85",
+          "blockNumber": 4,
+          "endorserMsp": "Org1MSP"
+        }
+      },
+      {
+        "txId": "5158a78fffb0c1711d9d3228c0cad3687eda769def24e9fcc327872b15bbed1d",
+        "timestamp": "2026-11-04T11:20:01.280Z",
+        "isDelete": false,
+        "record": {
+          "landId": "LAND-TEST-1258",
+          "surveyNumber": "SY-882/1A",
+          "currentOwner": {
+            "name": "Priya Patel",
+            "email": "buyer@landchain.gov.in"
+          },
+          "location": "Koramangala 4th Block, 80ft Road",
+          "district": "Bengaluru Urban",
+          "state": "Karnataka",
+          "area": 3200,
+          "areaUnit": "Sq Ft",
+          "landType": "Residential",
+          "documentRef": "TITLE-DOC-KA-2024-4491",
+          "status": "REGISTERED",
+          "registeredAt": "2026-11-04T11:20:01.269Z",
+          "updatedAt": "2026-11-04T11:20:01.280Z",
+          "txId": "5158a78fffb0c1711d9d3228c0cad3687eda769def24e9fcc327872b15bbed1d",
+          "blockNumber": 5,
+          "endorserMsp": "Org1MSP",
+          "previousOwner": {
+            "name": "Rohan Deshmukh",
+            "email": "citizen_1793791200921@testland.gov.in"
+          }
+        }
+      }
+    ],
+    "LAND-2315": [
+      {
+        "txId": "ef202b571eea542ee2335ba2d0ba1fc998cd7381dae2d6f0cd8c62dfe386ae6f",
+        "timestamp": "2026-11-05T02:58:23.522Z",
+        "isDelete": false,
+        "record": {
+          "landId": "LAND-2315",
+          "surveyNumber": "CTS-342",
+          "currentOwner": {
+            "name": "S Sharma",
+            "email": "citizen@landchain.gov.in"
+          },
+          "location": "Chennau",
+          "district": "Bengaluru Urban",
+          "state": "Tamil Nadu",
+          "area": 2500,
+          "areaUnit": "Sq Ft",
+          "landType": "Residential",
+          "documentRef": "DOC 23",
+          "status": "REGISTERED",
+          "registeredAt": "2026-11-05T02:58:23.522Z",
+          "updatedAt": "2026-11-05T02:58:23.522Z",
+          "txId": "ef202b571eea542ee2335ba2d0ba1fc998cd7381dae2d6f0cd8c62dfe386ae6f",
+          "blockNumber": 6,
+          "endorserMsp": "Org1MSP"
+        }
+      }
+    ]
+  },
+  "transactions": [
+    {
+      "txId": "ef202b571eea542ee2335ba2d0ba1fc998cd7381dae2d6f0cd8c62dfe386ae6f",
+      "function": "registerLand",
+      "landId": "LAND-2315",
+      "timestamp": "2026-11-05T02:58:23.522Z",
+      "status": "VALID",
+      "blockNumber": 6,
+      "endorserMsp": "Org1MSP"
+    },
+    {
+      "txId": "5158a78fffb0c1711d9d3228c0cad3687eda769def24e9fcc327872b15bbed1d",
+      "function": "transferLand",
+      "landId": "LAND-TEST-1258",
+      "timestamp": "2026-11-04T11:20:01.280Z",
+      "status": "VALID",
+      "blockNumber": 5,
+      "endorserMsp": "Org1MSP"
+    },
+    {
+      "txId": "d4d84c4bd167e5ba9e197e32c4e8ffff4527902b24b1c0fed7aba4d60801dd85",
+      "function": "registerLand",
+      "landId": "LAND-TEST-1258",
+      "timestamp": "2026-11-04T11:20:01.269Z",
+      "status": "VALID",
+      "blockNumber": 4,
+      "endorserMsp": "Org1MSP"
+    },
+    {
+      "txId": "cf484b34059545529611cd5ea4bed7c067338b369add41c521b3c50eed6e9d27",
+      "function": "transferLand",
+      "landId": "LAND-TEST-5244",
+      "timestamp": "2026-11-04T11:19:25.264Z",
+      "status": "VALID",
+      "blockNumber": 3,
+      "endorserMsp": "Org1MSP"
+    },
+    {
+      "txId": "92a55e8159eb0853bd8ce636d80d11f5a49fdb66637120e012b6a69af21cc38b",
+      "function": "registerLand",
+      "landId": "LAND-TEST-5244",
+      "timestamp": "2026-11-04T11:19:25.254Z",
+      "status": "VALID",
+      "blockNumber": 2,
+      "endorserMsp": "Org1MSP"
+    },
+    {
+      "txId": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "function": "registerLand",
+      "landId": "LAND-KA-2024-001",
+      "timestamp": "2024-01-15T10:00:00.000Z",
+      "status": "VALID",
+      "blockNumber": 1,
+      "endorserMsp": "Org1MSP"
+    }
+  ]
+}
